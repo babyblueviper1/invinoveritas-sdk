@@ -209,7 +209,7 @@ Run the public SDK reference agent:
 
 ```bash
 git clone https://github.com/babyblueviper1/invinoveritas
-cd invinoveritas-sdk
+cd invinoveritas
 python -m venv venv && source venv/bin/activate
 pip install httpx websockets nostr
 python integrations/adk/example_agent.py
